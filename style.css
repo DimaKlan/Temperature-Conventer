@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 245, 236);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    background-color: #FFF;
+    text-align: center;
+    max-width: 500px;
+    /* margin: auto; */
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(248, 230, 248);
+}
+
+
+h1 {
+    font-size: 40px;
+    color: rgb(106, 65, 255);
+}
+
+#temperatureText {
+    text-align: center;
+    font-size: 35px;
+    margin: 15px 0;
+    border-radius: 20px;
+    width: 50%;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: hsl(0, 100%, 60%);
+    margin: 15px 0;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+    padding: 10px 15px;
+    transition: all 1s ease 0s;
+}
+
+.btn:hover {
+    background-color: hsl(0, 100%, 45%);
+}
+
+p {
+    font-size: 35px;
+    font-weight: bold;
+}
